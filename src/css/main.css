@@ -46,6 +46,19 @@ ul{
   margin: 4rem auto;
   text-align: center;
 }
+.card .img{
+  animation: fade .5s ease-in;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-animation: fade .5s ease-in;
+}
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
 .card:first-child {
   position: absolute;
   top: 0;

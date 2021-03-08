@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Slider</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,100;1,200;1,300;1,400;1,900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/index.js" defer></script>
+  </head>
+
+  <body class="app-bg">
+    <header>Fancy Slider</header>
+    <div style="position: relative;height: 650px;width: 100%;">
+      <div id="app">
+        <div id="front" class="card">
+          <div class="front-card">
+            <img src="/src/assets/images/1.jpg" alt="" class="img">
+            <p class="text">Best Design</p>
+          </div>
+        </div>
+        <div id="first" class="card">
+          <div class="back-card back-card_firstlayer">
+            <img src="/src/assets/images/2.jpg" alt="" class="img">
+            <p class="text">Best Design</p>
+          </div>
+        </div>
+        <div id="second" class="card">
+          <div class="back-card back-card_firstlayer">
+            <img src="/src/assets/images/3.jpg" alt="" class="img">
+            <p class="text">Best Design</p>
+          </div>
+        </div>
+        <div id="third" class="card">
+          <div class="back-card back-card_secondlayer">
+            <img src="/src/assets/images/4.jpg" alt="" class="img">
+            <p class="text">Best Design</p>
+          </div>
+        </div>
+        <div id="forth" class="card">
+          <div class="back-card back-card_secondlayer">
+            <img src="/src/assets/images/5.jpg" alt="" class="img">
+            <p class="text">Best Design</p>
+          </div>
+        </div>
+        <div id="fifth" class="card">
+          <div class="back-card back-card_thirdlayer">
+            <img src="/src/assets/images/6.jpg" alt="" class="img">
+            <p class="text">Best Design</p>
+          </div>
+        </div>
+        <div id="sixth" class="card">
+          <div class="back-card back-card_thirdlayer">
+            <img src="/src/assets/images/7.jpg" alt="" class="img">
+            <p class="text">Best Design</p>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <div id="right-arrow" class="right-arrow">
+            <svg width="30" height="80" viewbox="0 0 59 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d)">
+                <rect x="10.5259" width="62.8696" height="9.1349" transform="rotate(45 10.5259 0)" fill="#8C8F95" />
+                <rect x="54.9148" y="44.5444" width="62.8696" height="9.1349" transform="rotate(135 54.9148 44.5444)"
+                  fill="#8C8F95" />
+              </g>
+              <defs>
+                <filter id="filter0_d" x="0" y="0" width="58.9813" height="107" filterunits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                  <feOffset dy="14" />
+                  <feGaussianBlur stddeviation="2" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <div id="left-arrow" class="left-arrow">
+            <svg width="30" height="80" viewbox="0 0 57 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d)">
+                <rect width="61.66" height="8.95914" transform="matrix(-0.692957 0.720979 0.692957 0.720979 46.7278 0)"
+                  fill="#8C8F95" />
+                <rect width="61.66" height="8.95914"
+                  transform="matrix(0.692957 0.720979 0.692957 -0.720979 4.06396 44.5444)" fill="#8C8F95" />
+              </g>
+              <defs>
+                <filter id="filter0_d" x="0" y="0" width="57" height="107" filterunits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                  <feOffset dy="14" />
+                  <feGaussianBlur stddeviation="2" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
